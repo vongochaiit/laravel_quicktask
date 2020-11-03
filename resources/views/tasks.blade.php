@@ -19,6 +19,7 @@
 
                 <div class="col-sm-6">
                     <input type="text" name="name" id="task-name" class="form-control">
+                    <span class="text-danger">{{$errors->first('name')}}</span>
                 </div>
             </div>
             
